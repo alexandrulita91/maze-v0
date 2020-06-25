@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "test.pypi"
+url = "https://test.pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+gym-maze-trustycoder83 = "==0.0.3"
+
+[requires]
+python_version = "3.6"

@@ -1,2 +1,9 @@
-# maze-game
-AI for Logistics – Robots in a Warehouse
+# Maze game
+Learn how to use Q-learning, a simple model-free Reinforcement Learning algorithm to solve the maze game.
+
+## Requirements
+First of all, you need Python **3.6** or **3.7** to run the script. After this, install the required packages using pipenv.
+- `pipenv sync`
+
+## How to run it
+Execute `pipenv run python q-learning.py` command to run the script.
