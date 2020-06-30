@@ -34,14 +34,21 @@ def calculate_explore_rate(t: int) -> float:
 
 
 if __name__ == "__main__":
+    # Enable to disable recording
+    recording_is_enabled = False
+
     # Initializes the environment
     env = gym.make("maze-sample-5x5-v0")
+
+    # Records the environment
+    if recording_is_enabled:
+        env = gym.wrappers.Monitor(env, "recording", video_callable=lambda episode_id: True, force=True)
 
     # Calculates the maze size
     maze_size: Tuple[int, int] = tuple((env.observation_space.high + np.ones(env.observation_space.shape)).astype(int))
 
     # Defines training related constants
-    num_episodes: int = 50000
+    num_episodes: int = 50
     num_episode_steps: int = np.prod(maze_size, dtype=int) * 100
     num_actions: int = env.action_space.n
 
