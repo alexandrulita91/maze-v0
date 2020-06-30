@@ -6,4 +6,5 @@ First of all, you need Python **3.6** or **3.7** to run the script. After this, 
 - `pipenv sync`
 
 ## How to run it
-Execute `pipenv run python q-learning.py` command to run the script.
+You can run the script using the following command: 
+- `pipenv run python q-learning.py`
