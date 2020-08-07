@@ -34,7 +34,7 @@ def calculate_explore_rate(t: int) -> float:
 
 
 if __name__ == "__main__":
-    # Enable to disable recording
+    # Flag used to enable or disable screen recording
     recording_is_enabled = False
 
     # Initializes the environment
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     num_episode_steps: int = np.prod(maze_size, dtype=int) * 100
     num_actions: int = env.action_space.n
 
-    # Defines learning-related parameters
+    # Defines learning related parameters
     decay_factor: float = np.prod(maze_size, dtype=float) / 10.0
     learning_rate: float = calculate_learning_rate(0)
     explore_rate: float = calculate_explore_rate(0)
@@ -61,7 +61,6 @@ if __name__ == "__main__":
     # Initializes the Q-values
     Q: np.ndarray = np.zeros(maze_size + (num_actions,), dtype=float)
 
-    # Trains the agent
     for episode in range(num_episodes):
         # Defines the total reward per episode
         total_reward: int = 0
@@ -82,7 +81,7 @@ if __name__ == "__main__":
             else:
                 action: int = int(np.argmax(Q[current_state]))
 
-            # Takes action and calculate the total reward
+            # Takes action and calculates the total reward
             observation, reward, done, _ = env.step(action)
             total_reward += reward
 
