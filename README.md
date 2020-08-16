@@ -16,6 +16,9 @@ Q-learning is an off policy reinforcement learning algorithm that seeks to find 
 You can train the agent using the following command:
 - `pipenv run python q_maze_game.py`
 
+## Demo video
+https://www.youtube.com/watch?v=zUdLT6a6ivU
+
 ## Improvement ideas
 - improve the code quality
 - remove unnecessary comments
