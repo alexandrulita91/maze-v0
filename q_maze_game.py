@@ -1,3 +1,7 @@
+"""
+Maze game -- Q-learning
+"""
+
 import math
 import random
 from typing import Tuple
