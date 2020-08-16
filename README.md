@@ -1,5 +1,5 @@
 # Maze game
-Maze game is a video game genre description first used by journalists during the 1980s to describe any game in which the entire playing field is a maze. Quick player action is required to escape monsters, outrace an opponent, or navigate the maze within a time limit. After the release of Namco's Pac-Man in 1980, many maze games followed its conventions of completing a level by traversing all paths and a way of temporarily turning the tables on pursuers.
+Maze game is a video game genre description first used by journalists during the 1980s to describe any game in which the entire playing field is a maze.
 
 ## Requirements
 - [Python 3.6 or 3.7](https://www.python.org/downloads/release/python-360/)
