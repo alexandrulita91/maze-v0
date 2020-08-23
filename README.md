@@ -1,4 +1,4 @@
-# Maze game
+# Maze-v0
 Maze game is a video game genre description first used by journalists during the 1980s to describe any game in which the entire playing field is a maze.
 
 ## Requirements
