@@ -9,12 +9,12 @@ Maze game is a video game genre description first used by journalists during the
 You can install the required Python packages using the following command:
 - `pipenv sync`
 
-## Q-learning
-Q-learning is an off policy reinforcement learning algorithm that seeks to find the best action to take given the current state. It's considered off-policy because the q-learning function learns from actions that are outside the current policy, like taking random actions, and therefore a policy isn't needed
+## Reinforcement learning algorithms
+- Q-learning (off-policy, model-free)
 
 ## How to train the agent
 You can train the agent using the following command:
-- `pipenv run python q_maze_game.py`
+- `pipenv run python maze_v0_ql.py`
 
 ## Demo video
 https://www.youtube.com/watch?v=zUdLT6a6ivU
