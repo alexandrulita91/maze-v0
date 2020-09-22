@@ -18,7 +18,3 @@ You can install the required Python packages using the following command:
 ## How to train the agent
 You can train the agent using the following command:
 - `pipenv run python maze_v0_ql.py`
-
-## Improvement ideas
-- improve the code quality
-- remove unnecessary comments
